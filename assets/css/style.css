@@ -1,5 +1,6 @@
 * {
   margin: 0 auto;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -11,6 +12,10 @@
 
 .d-flex {
   display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
 }
 
 .justify-content-around {
@@ -251,4 +256,35 @@
 
 .pb-5 {
   padding-bottom: 50px;
+}
+
+/* header */
+
+header {
+  height: 70px;
+  background-color: #3f4247;
+}
+
+.logo {
+  color: #fff;
+  font-size: 28px;
+}
+
+nav {
+  margin: auto;
+}
+
+nav a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-phone {
+  color: #fff;
+  margin: auto;
+}
+
+.nav-phone i {
+  margin-right: 5px;
 }
