@@ -361,3 +361,46 @@ nav a {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+/* motivational */
+
+.motivational {
+  margin-top: 50px;
+  height: 100vh;
+  position: relative;
+  background-image: url("../images/gray-texture.jpg");
+  background-position: center;
+}
+
+.motivational h2 {
+  margin-bottom: 50px;
+}
+
+.motivational-txt {
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+/* gallery card list */
+
+.gallery-list {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ebebeb;
+}
+
+.gallery-card {
+  width: 25%;
+  margin: 10px;
+}
+
+.gallery-card img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+}
