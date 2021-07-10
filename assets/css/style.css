@@ -288,3 +288,34 @@ nav a {
 .nav-phone i {
   margin-right: 5px;
 }
+
+/* hero */
+
+.hero {
+  height: 100vh;
+  position: relative;
+  background-image: url("../images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-txt {
+  position: absolute;
+  left: 30%;
+  top: 35%;
+  color: #fff;
+}
+
+.hero-btn {
+  margin-top: 20px;
+}
+
+.hero-btn a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  color: #fff;
+}
