@@ -303,9 +303,13 @@ nav a {
 
 .hero-txt {
   position: absolute;
-  left: 30%;
+  left: 25%;
   top: 35%;
   color: #fff;
+}
+
+.hero-txt h1 {
+  font-size: 48px;
 }
 
 .hero-btn {
@@ -318,4 +322,42 @@ nav a {
   padding: 10px 20px;
   border: 2px solid #fff;
   color: #fff;
+}
+
+/* card-list */
+
+.services-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.border-btm {
+  border-bottom: 1px solid #3f4247;
+}
+
+.card {
+  width: 33%;
+  margin: 20px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-img img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+}
+
+.card-txt {
+  box-sizing: border-box;
+  padding: 2px 16px;
+  margin-bottom: 20px;
+}
+
+.card-txt h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
