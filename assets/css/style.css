@@ -528,3 +528,11 @@ footer {
   text-decoration: none;
   color: #fff;
 }
+
+.border-btm-footer {
+  border-bottom: 2px solid #fff;
+}
+
+.border-top-footer {
+  border-top: 1px solid #fff;
+}
