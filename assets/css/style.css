@@ -478,3 +478,53 @@ nav a {
   color: #000;
   font-weight: 700;
 }
+
+/* footer */
+
+footer {
+  background-color: #3f4247;
+  color: #fff;
+  line-height: 2rem;
+}
+
+.map {
+  margin: 20px;
+}
+
+.work-hours ul li {
+  list-style-type: none;
+}
+
+.work-hours ul {
+  padding: 0;
+}
+
+.work-hours {
+  margin: 20px;
+}
+
+.footer-nav {
+  margin: 20px;
+}
+
+.footer-nav a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-nav a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.copy {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.copy a {
+  text-decoration: none;
+  color: #fff;
+}
