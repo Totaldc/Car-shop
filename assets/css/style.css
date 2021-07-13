@@ -337,11 +337,20 @@ nav a {
   border-bottom: 1px solid #3f4247;
 }
 
+.card-list {
+  flex-wrap: wrap;
+}
+
 .card {
-  width: 33%;
+  width: 45%;
   margin: 20px;
   margin-top: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.card-img {
+  height: 300px;
 }
 
 .card-img img {
@@ -353,8 +362,11 @@ nav a {
 
 .card-txt {
   box-sizing: border-box;
-  padding: 2px 16px;
+  padding: 0px 30px;
   margin-bottom: 20px;
+  position: absolute;
+  top: 70%;
+  background-color: #fff;
 }
 
 .card-txt h3 {
@@ -362,13 +374,28 @@ nav a {
   margin-bottom: 20px;
 }
 
+.service-button {
+  text-align: center;
+  padding: 10px 20px;
+  border: 2px solid #3f4247;
+  width: fit-content;
+}
+
+.service-button a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
 /* motivational */
 
 .motivational {
   margin-top: 50px;
-  height: 100vh;
+  height: 50vh;
   position: relative;
   background-image: url("../images/gray-texture.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
 }
 
@@ -381,7 +408,7 @@ nav a {
   width: 80%;
   text-align: center;
   position: absolute;
-  top: 30%;
+  top: 22%;
   left: 10%;
 }
 
@@ -403,4 +430,51 @@ nav a {
   width: 100%;
   object-fit: cover;
   background-position: center;
+}
+
+/* news card list */
+
+.news-card-list {
+  flex-wrap: wrap;
+}
+
+.news-card {
+  width: calc(33% - 16px);
+  margin: 10px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.news-card-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  background-position: center;
+}
+
+.news-card-txt {
+  box-sizing: border-box;
+  padding: 0px 30px;
+  margin-bottom: 20px;
+  /* background-color: #fff; */
+}
+
+.news-card-txt h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.news-button {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 10px 20px;
+  border: 2px solid #3f4247;
+  width: fit-content;
+}
+
+.news-button a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
 }
