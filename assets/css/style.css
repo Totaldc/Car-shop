@@ -275,7 +275,7 @@ nav {
 }
 
 nav a {
-  padding: 10px 20px;
+  padding: 25px 25px;
   text-decoration: none;
   color: #fff;
 }
@@ -287,6 +287,43 @@ nav a {
 
 .nav-phone i {
   margin-right: 5px;
+}
+
+/* SHIFT */
+nav.shift a {
+  position: relative;
+  z-index: 1;
+}
+nav.shift a:hover {
+  color: rgb(233, 233, 233);
+}
+nav.shift a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: ".";
+  color: transparent;
+  background: #402675;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+nav.shift a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+nav a,
+nav a:after,
+nav a:before {
+  transition: all 0.5s;
 }
 
 /* hero */
