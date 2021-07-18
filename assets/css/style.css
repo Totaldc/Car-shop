@@ -324,6 +324,11 @@ nav a {
   color: #fff;
 }
 
+.hero-btn a:hover {
+  transition-duration: 0.5s;
+  background-color: #402675;
+}
+
 /* card-list */
 
 .services-title {
@@ -391,6 +396,16 @@ nav a {
   text-decoration: none;
   color: #000;
   font-weight: 700;
+}
+
+.service-button:hover a {
+  color: #fff;
+}
+
+.service-button:hover {
+  transition-duration: 0.5s;
+  background-color: #402675;
+  border: 2px solid #fff;
 }
 
 /* motivational */
@@ -501,6 +516,16 @@ nav a {
   text-decoration: none;
   color: #000;
   font-weight: 700;
+}
+
+.news-button:hover {
+  transition-duration: 0.5s;
+  background-color: #402675;
+  border: 2px solid #fff;
+}
+
+.news-button:hover a {
+  color: #fff;
 }
 
 /* footer */
