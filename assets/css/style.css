@@ -351,6 +351,7 @@ nav a {
 
 .card-img {
   height: 300px;
+  overflow: hidden;
 }
 
 .card-img img {
@@ -358,6 +359,11 @@ nav a {
   width: 100%;
   object-fit: cover;
   background-position: center;
+}
+
+.card-img img:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.2);
 }
 
 .card-txt {
@@ -432,6 +438,15 @@ nav a {
   background-position: center;
 }
 
+.gallery-card {
+  overflow: hidden;
+}
+
+.gallery-card img:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.2);
+}
+
 /* news card list */
 
 .news-card-list {
@@ -450,8 +465,17 @@ nav a {
   height: 300px;
   object-fit: cover;
   background-position: center;
+  overflow: hidden;
 }
 
+.news-card-img {
+  overflow: hidden;
+}
+
+.news-card-img img:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.2);
+}
 .news-card-txt {
   box-sizing: border-box;
   padding: 0px 30px;
@@ -534,5 +558,6 @@ footer {
 }
 
 .border-top-footer {
+  margin-bottom: 20px;
   border-top: 1px solid #fff;
 }
