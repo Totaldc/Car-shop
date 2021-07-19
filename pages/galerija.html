@@ -30,7 +30,7 @@
   </header>
   <!-- END OF HEADER -->
   <section class="hero-services">
-    <div class="hero-txt">
+    <div class="hero-page-txt">
       <h1>Galerija</h1>
     </div>
   </section>
@@ -39,7 +39,14 @@
     <div class="container">
       <div class="gallery-list bg-white d-flex flex-wrap">
         <div class="gallery-card">
-          <img src="../assets/images/card1.jpeg" alt="">
+          <img src="../assets/images/card1.jpeg" alt="" onclick="onClick(this)" class="modal-hover-opacity">
+        </div>
+        <div id="modal01" class="modal" onclick="this.style.display='none'">
+          <!-- <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span> -->
+          <div class="modal-content">
+            <img id="img01" style="max-width:100%">
+            <div id="caption"></div>
+          </div>
         </div>
         <div class="gallery-card">
           <img src="../assets/images/card1.jpeg" alt="">
