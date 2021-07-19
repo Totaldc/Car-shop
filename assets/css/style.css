@@ -18,6 +18,10 @@
   flex-direction: column;
 }
 
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
 .justify-content-around {
   justify-content: space-around;
 }
@@ -563,6 +567,57 @@ nav a:before {
 
 .news-button:hover a {
   color: #fff;
+}
+
+/* paslaugos page */
+
+.hero-services {
+  height: 20vh;
+  position: relative;
+  background-image: url("../images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-txt {
+  position: absolute;
+  left: 42%;
+  top: 5%;
+  color: #fff;
+}
+
+.hero-txt h1 {
+  font-size: 48px;
+}
+
+.service-card {
+  height: 400px;
+  box-sizing: border-box;
+}
+
+.service-card-left {
+  width: 50%;
+}
+
+.service-card-right {
+  width: 50%;
+  height: 400px;
+}
+
+.service-card-right img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.service-card-left h3 {
+  margin-left: 20px;
+}
+
+.service-txt {
+  margin: 20px;
 }
 
 /* footer */
