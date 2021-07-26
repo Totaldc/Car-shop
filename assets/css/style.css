@@ -266,6 +266,10 @@
   padding-bottom: 50px;
 }
 
+.txt-center {
+  text-align: center;
+}
+
 /* header */
 
 header {
@@ -732,6 +736,77 @@ nav a:before {
 }
 
 /* END OF GALLERY IMAGE ZOOM */
+
+/* kontaktai page */
+
+.contacts-right {
+  margin: 0;
+}
+
+.work-hours-contact ul li {
+  list-style-type: none;
+}
+
+.work-hours-contact ul {
+  padding: 0;
+}
+
+.work-hours-contact {
+  width: 33%;
+  padding: 50px 50px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.call-us ul li {
+  list-style-type: none;
+}
+
+.call-us ul {
+  padding: 0;
+}
+
+.call-us {
+  width: 33%;
+  padding: 50px 50px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.business-info ul li {
+  list-style-type: none;
+}
+
+.business-info ul {
+  padding: 0;
+}
+
+.business-info {
+  width: 33%;
+  padding: 50px 50px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* .contacts-container {
+  position: relative;
+} */
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 30%;
+  position: relative;
+  height: 0;
+  background-color: red;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 
 /* footer */
 
