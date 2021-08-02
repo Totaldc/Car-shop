@@ -292,13 +292,22 @@ nav a {
   color: #fff;
 }
 
+nav i {
+  color: red;
+}
+
 .nav-phone {
   color: #fff;
   margin: auto;
 }
 
 .nav-phone i {
-  margin-right: 5px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.fa-phone {
+  color: rgb(6, 223, 150);
 }
 
 /* SHIFT */
@@ -797,7 +806,6 @@ nav a:before {
   padding-bottom: 30%;
   position: relative;
   height: 0;
-  background-color: red;
 }
 
 .map-responsive iframe {
