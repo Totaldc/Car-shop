@@ -5,3 +5,13 @@ function onClick(element) {
   document.getElementById("modal01").style.display = "block";
   captionText.innerHTML = element.alt;
 }
+//Navigation slide out
+
+function openNav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
