@@ -943,6 +943,12 @@ footer {
   }
 }
 
+@media only screen and (max-width: 1030px) {
+  .card {
+    margin: 19px;
+  }
+}
+
 @media only screen and (max-width: 960px) {
   nav {
     width: 200px;
@@ -1000,6 +1006,18 @@ footer {
   }
 }
 
+@media only screen and (max-width: 950px) {
+  .card {
+    margin: 18px;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .card {
+    margin: 17px;
+  }
+}
+
 @media only screen and (max-width: 880px) {
   nav a {
     display: none;
@@ -1019,6 +1037,24 @@ footer {
   .hero-btn {
     margin-left: 18%;
     margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .card {
+    margin: 17px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .card {
+    margin: 16px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    margin: 15px;
   }
 }
 
@@ -1050,7 +1086,17 @@ footer {
   }
 }
 
-/* navigation */
+@media only screen and (max-width: 750px) {
+  .card {
+    margin: 14px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    width: 100%;
+  }
+}
 
 @media only screen and (max-width: 660px) {
   .hero-txt {
@@ -1080,10 +1126,10 @@ footer {
   }
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 365px) {
   .hero-txt {
     position: absolute;
-    left: 6%;
+    left: 10%;
     top: 35%;
     color: #fff;
   }
