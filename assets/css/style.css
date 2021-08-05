@@ -376,19 +376,25 @@ nav a:before {
 
 .hero {
   height: 100vh;
-  position: relative;
+  /* position: relative; */
   background-image: url("../images/hero-bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  display: flex;
+  align-items: center;
 }
 
 .hero-txt {
-  position: absolute;
-  left: 25%;
-  top: 35%;
+  text-align: center;
+  width: 100%;
+  /* position: absolute; */
+  /* left: 50%;
+  top: 50%; */
   color: #fff;
+  /* -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); */
 }
 
 .hero-txt h1 {
@@ -427,12 +433,13 @@ nav a:before {
 
 .card-list {
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
-  width: 45%;
+  width: calc(50% - 40px);
   margin: 20px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   position: relative;
 }
@@ -495,7 +502,7 @@ nav a:before {
 
 .motivational {
   margin-top: 50px;
-  height: 50vh;
+  height: 70vh;
   position: relative;
   background-image: url("../images/gray-texture.jpg");
   background-repeat: no-repeat;
@@ -512,8 +519,10 @@ nav a:before {
   width: 80%;
   text-align: center;
   position: absolute;
-  top: 22%;
-  left: 10%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
 /* gallery card list */
@@ -555,9 +564,8 @@ nav a:before {
 }
 
 .news-card {
-  width: calc(33% - 16px);
-  margin: 10px;
-  margin-top: 50px;
+  width: calc(50% - 40px);
+  margin: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -851,6 +859,8 @@ footer {
 
 .map {
   margin: 20px;
+  height: 100%;
+  width: 50%;
 }
 
 .work-hours ul li {
@@ -863,10 +873,12 @@ footer {
 
 .work-hours {
   margin: 20px;
+  width: 35%;
 }
 
 .footer-nav {
   margin: 20px;
+  width: 15%;
 }
 
 .footer-nav a {
@@ -902,28 +914,8 @@ footer {
 
 /* responsive */
 
-@media only screen and (max-width: 1200px) {
-  .hero-txt {
-    position: absolute;
-    left: 18%;
-    top: 35%;
-    color: #fff;
-  }
-
-  .hero-txt h1 {
-    font-size: 48px;
-  }
-
-  .hero-btn {
-    margin-top: 20px;
-  }
-}
-
 @media only screen and (max-width: 1030px) {
   nav {
-    /* position: relative;
-    overflow: hidden;
-    display: inline; */
     min-width: 100px;
   }
 
@@ -934,20 +926,13 @@ footer {
   .nav-phone {
     font-size: 14px;
   }
-
-  .hero-txt {
-    position: absolute;
-    left: 13%;
-    top: 35%;
-    color: #fff;
-  }
 }
 
-@media only screen and (max-width: 1030px) {
+/* @media only screen and (max-width: 1030px) {
   .card {
     margin: 19px;
   }
-}
+} */
 
 @media only screen and (max-width: 960px) {
   nav {
@@ -988,25 +973,9 @@ footer {
   .topnav {
     width: 80%;
   }
-
-  .hero-txt {
-    position: absolute;
-    left: 20%;
-    top: 35%;
-    color: #fff;
-  }
-
-  .hero-txt h1 {
-    width: 80%;
-  }
-
-  .hero-btn {
-    margin-left: 18%;
-    margin-top: 20px;
-  }
 }
 
-@media only screen and (max-width: 950px) {
+/* @media only screen and (max-width: 950px) {
   .card {
     margin: 18px;
   }
@@ -1016,7 +985,7 @@ footer {
   .card {
     margin: 17px;
   }
-}
+} */
 
 @media only screen and (max-width: 880px) {
   nav a {
@@ -1026,115 +995,14 @@ footer {
   nav a {
     padding: 15px;
   }
-
-  .hero-txt {
-    position: absolute;
-    left: 20%;
-    top: 35%;
-    color: #fff;
-  }
-
-  .hero-btn {
-    margin-left: 18%;
-    margin-top: 20px;
-  }
 }
 
-@media only screen and (max-width: 860px) {
-  .card {
-    margin: 17px;
-  }
-}
-
-@media only screen and (max-width: 850px) {
-  .card {
-    margin: 16px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .card {
-    margin: 15px;
-  }
-}
-
-@media only screen and (max-width: 830px) {
-  .hero-txt {
-    position: absolute;
-    left: 20%;
-    top: 35%;
-    color: #fff;
-  }
-
-  .hero-btn {
-    margin-left: 18%;
-    margin-top: 20px;
-  }
-}
-
-@media only screen and (max-width: 786px) {
-  .hero-txt {
-    position: absolute;
-    left: 20%;
-    top: 35%;
-    color: #fff;
-  }
-
-  .hero-btn {
-    margin-left: 20%;
-    margin-top: 20px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .card {
-    margin: 14px;
-  }
-}
-
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 880px) {
   .card {
     width: 100%;
   }
-}
 
-@media only screen and (max-width: 660px) {
-  .hero-txt {
-    position: absolute;
-    left: 20%;
-    top: 35%;
-    color: #fff;
-  }
-
-  .hero-btn {
-    margin-left: 14%;
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 455px) {
-  .hero-txt {
-    position: absolute;
-    left: 15%;
-    top: 35%;
-    color: #fff;
-  }
-
-  .hero-btn {
-    margin-left: 10%;
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 365px) {
-  .hero-txt {
-    position: absolute;
-    left: 10%;
-    top: 35%;
-    color: #fff;
-  }
-  .hero-btn {
-    margin-left: 10%;
-    margin-top: 20px;
+  .news-card {
+    width: 100%;
   }
 }
