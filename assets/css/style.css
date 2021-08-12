@@ -831,6 +831,31 @@ nav a:before {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.contact-card ul li {
+  list-style-type: none;
+}
+
+.contact-card ul {
+  padding: 0;
+}
+
+.contact-card {
+  width: calc(33% - 4px);
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 20px;
+  line-height: 1.5em;
+}
+
+.contact-card h4 {
+  margin-bottom: 10px;
+}
+
+.contact-card .fa-phone {
+  color: #000;
+}
+
 /* .contacts-container {
   position: relative;
 } */
@@ -1015,6 +1040,14 @@ footer {
 @media only screen and (max-width: 780px) {
   .gallery-card {
     width: calc(50% - 20px);
+  }
+
+  .contacts-right {
+    flex-direction: column;
+  }
+
+  .contact-card {
+    width: 100%;
   }
 }
 
